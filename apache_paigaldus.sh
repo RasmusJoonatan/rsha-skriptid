@@ -1,4 +1,3 @@
-  
 # apache paigaldamine
 
 APACHE2=$(dpkg-query -W -f='${Status}' apache2 2>/dev/null | grep -c 'ok installed')
