@@ -14,7 +14,7 @@ if [ $MYSQL -eq 0 ]; then
 	echo "password = qwerty" >> $Home/.my.cnf
 # Kui väärtus = 1
 elif [ $MYSQL -eq 1 ]; then
-	# Siis kontrollitakse mysql olemasolu
+	# Kontrollitakse mysql olemasolu
 	echo "mysql server on juba installitud"
 	mysql
 fi
