@@ -19,5 +19,4 @@ elif [ $MYSQL -eq 1 ]; then
 	echo "mysql server on juba installitud"
 	mysql
 fi
-
 # skripti lõpp
