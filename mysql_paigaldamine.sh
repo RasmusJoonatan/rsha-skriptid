@@ -1,4 +1,5 @@
 # mysql-serveri paigaldamine
+
 MYSQL=$(dpkg-query -W -f='${status}' mysql-server 2>/dev/null | grep -c 'ok installed')
 # Kui väärtus = 0
 if [ $MYSQL -eq 0 ]; then
@@ -17,6 +18,6 @@ elif [ $MYSQL -eq 1 ]; then
 # Kontrollitakse mysql olemasolu
 echo "mysql server on juba installitud"
 mysql
-fi
 
+fi
 # skripti lõpp
