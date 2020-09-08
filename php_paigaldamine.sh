@@ -1,4 +1,5 @@
 # php paigaldusskript
+
 PHP=$(dpkg-query -W -f='${Status}' php7.0 2>/dev/null | grep -c 'ok installed')
 # kui PHP muutuja väärtus võrdub 0-ga
 if [ $PHP -eq 0 ]; then
@@ -12,7 +13,6 @@ echo "php on paigaldatud"
 elif [ $PHP -eq 1 ]; then
 # kontrollime olemasolu
 echo "php on juba paigaldatud"
-      
 which php
         
 fi
