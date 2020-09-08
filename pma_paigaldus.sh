@@ -11,6 +11,6 @@ echo "phpadmin on installeeritud!"
 elif [ $PMA -eq 1 ]; then
 # kontrollitakse olemasolu
 echo "phpmyadmin on juba installitud!"
-fi
 
+fi
 # skripti lõpp
