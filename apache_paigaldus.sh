@@ -1,5 +1,6 @@
   
 # apache paigaldamine
+
 APACHE2=$(dpkg-query -W -f='${Status}' apache2 2>/dev/null | grep -c 'ok installed')
 # Kui muutuja väärtus = 0-ga
 if [ $APACHE2 -eq 0 ]; then
@@ -14,5 +15,4 @@ service apache2 start
 service apache2 status
 
 fi
-
 # skripti lõpp
