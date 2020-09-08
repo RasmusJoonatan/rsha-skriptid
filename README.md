@@ -1,5 +1,6 @@
 # rsha-skriptid
-## skriptid mis on
+Siin saab näha millised saavad olla skriptid mis automatiseerivad veebilehte.
+## skriptid
 ### andmebaasid.sh
 skript mis seadistab anmebaase
 ### apache_paigaldus.sh
