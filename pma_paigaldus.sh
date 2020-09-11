@@ -14,3 +14,4 @@ echo "phpmyadmin on juba installitud!"
 
 fi
 # skripti lõpp
+
