@@ -21,3 +21,4 @@ mysql
 
 fi
 # skripti lõpp
+
