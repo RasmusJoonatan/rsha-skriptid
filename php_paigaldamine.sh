@@ -17,3 +17,4 @@ which php
         
 fi
 #skripti lõpp
+
